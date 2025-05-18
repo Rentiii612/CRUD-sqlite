@@ -168,10 +168,6 @@ $tugas = $statement->fetchAll(PDO::FETCH_ASSOC);
             <?php endif ?>
         </tbody>
     </table>
-
-    <div class="footer">
-        &copy; <?= date('Y') ?> Aplikasi CRUD Tugas. Estetik & Kalem ✨
-    </div>
 </div>
 </body>
 </html>
